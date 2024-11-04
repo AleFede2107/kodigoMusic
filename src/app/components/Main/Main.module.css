@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 5vh;
+}
+
+.player{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    color: #3e0764;
+    margin: 1rem 0;
+}
+
+.stats h1{
+    color: #9933ea;
+}
+
+.stats h2{
+    color: #414141;
+}
+
+.stats h3{
+    display: flex;
+    flex-direction: row;
+    color: #414141;
+}
+
+.stats h3 div{
+    border-bottom: 3px solid #6c6c6c;
+    width: 250px;
+    transform: translateY(-8px);
+    margin: 0.4rem;
+}

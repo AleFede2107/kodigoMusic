@@ -1,0 +1,64 @@
+/* YourComponent.module.css */
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+    color: white; /* Change text color for better contrast */
+    z-index: 1; /* Ensure content is above the background */
+    height: 100vh;
+    margin: 0.5rem;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for readability */
+}
+
+.main a {
+    text-decoration: none;
+    background-color: #5b1c87; /* Primary color */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 3rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.main a:hover {
+    background-color: #9933ea; /* Darker shade on hover */
+}
+
+.background {
+    position: absolute; /* Position it behind the main content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Cover the full area of the main */
+    z-index: -5; /* Send it to the back */
+    border-radius: 30px;
+}
+
+.background img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Cover the full height */
+    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 30px;
+}
+
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(61, 61, 61, 0.505), rgba(163, 0, 175, 0.686)); /* Adjust the gradient colors */
+    z-index: 0; /* Place it above the background image */
+    border-radius: 30px;
+}

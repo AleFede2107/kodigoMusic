@@ -21,9 +21,24 @@
 
 .nav ul{
     display: flex;
-    width: 150px;
+    width: 250px;
+    margin-right: 3rem;
+    list-style: none;
+}
+
+.nav ul li a{
+    background-color: #6f20a9;
     justify-content: space-around;
-    margin-right: 4rem;
-    color: #c383fd;
+    text-decoration: none;
+    border: none;
+    color: #ad55f7;
     font-size: 1.6rem;
+    margin-left: 0.8rem;
+    
+}
+
+.nav ul li span{
+    font-size: 1.2rem;
+    color: #3e0764;
+    margin-left: 0.4rem;
 }
